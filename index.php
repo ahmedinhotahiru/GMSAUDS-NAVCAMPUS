@@ -24,46 +24,90 @@
   <?php include 'navbar.php';?>
 
   
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
+  
+  
+
+<!-- Image Carousel starts here -->
+<div class="carousel slide" data-ride="carousel" id="imgCarousel" data-interval="3000" data-pause="false">
+
+
+        <!-- Carousel indicators start here -->
+          <ol class="carousel-indicators">
+              <li data-target="#imgCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#imgCarousel" data-slide-to="1"></li>
+              <li data-target="#imgCarousel" data-slide-to="2"></li>
+          </ol>
+        <!-- Carousel indicators end here -->
+
+          <!-- Container for pictures -->
+          <div class="carousel-inner" role="listbox">
+
+              <div class="carousel-item active">
+                  <img src="img/adventure-alps.jpg" alt="" class="img-fluid d-block" style="width:100%; height:650px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <div class="container">
+                      <h3 class="display-2">AgroX</h3>
+                      <p class="lead">
+                          We connect farmers to buyers and buyers to farmers all over Ghana.
+                          The lack of an access to a structured market results in smallholder farmers being forced to sell to middlemen who buy at ridiculously exploitative prices. The lack of access to finance also means farmers are never able to move from being smallholders to middle level or even commercial farmers. 
+
+                        </p>
+                        <a href="#main" class="btn btn-lg btn-outline-light">Read more</a>
+                    </div>
+                      
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                  <img src="img/adventure-alps.jpg" alt="" class="img-fluid d-block" style="width:100%; height: 650px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <div class="container">
+                      <h3 class="display-2">Mission &amp; Vision</h3>
+                      <p class="lead">
+                          Onboarding smallholder farmers onto the AgroX platform. Agents visit communities where smallholder farmers who deal in sorghum, rice, maize, millet and soybean are registered onto the AgroX platform to trade. Agents also work with farmer based organizations (FBOs) to carry out trading activities.
+                        </p>
+                        <a href="#main" class="btn btn-lg btn-outline-light">Read More</a>
+                    </div>
+                      
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                  <img src="img/adventure-alps.jpg" alt="" class="img-fluid d-block" style="width:100%; height: 650px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <div class="container">
+                      <h3 class="display-2">Meet Farmers</h3>
+                      <p class="lead">
+                          Gathering market information and statistical data. Agents are assigned to major trading markets across the country to collate data on market pricing for various commodities. This information is relayed to smallholder farmers via Voice technologies in languages they read and understand. 
+
+                        </p>
+                        <a href="#main" class="btn btn-lg btn-outline-light">Read More</a>
+                    </div>
+                      
+                  </div>
+              </div>
+              
+
           </div>
-        </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
-          </div>
-        </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </header>
+
+          <!-- Carousel controls start here -->
+          <a href="#imgCarousel" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#imgCarousel" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
+          <!-- Carousel controls end here -->
+
+
+  </div>
+
+
+
+
+
+
+
 
   <!-- Page Content -->
   <div class="container">
@@ -222,7 +266,7 @@
         <?php
             include 'footer.php';
         
-        ;?>
+        ?>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

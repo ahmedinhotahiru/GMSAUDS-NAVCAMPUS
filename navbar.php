@@ -1,4 +1,4 @@
- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top" style="background:rgb(2,37,12);">
     <div class="container">
       <a class="navbar-brand" href="index.php">UDS-GMSA NAVRONGO</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
