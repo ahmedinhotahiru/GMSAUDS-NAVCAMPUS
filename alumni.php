@@ -1,3 +1,23 @@
+<?php 
+// //require the connection file for database connection
+// include 'connection.php';
+
+// //check if button is clicked
+// if(isset($_POST['btn'])){
+//   $name = $_POST['name'];
+//   $year = $_POST['adyear'];
+//   $depart = $_POST['depart'];
+//   $course = $_POST['course'];
+//   $id = $_POST['student_id'];
+
+
+//   $sql = "SELECT * FROM ";
+
+
+// }
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,6 +66,7 @@
             <div class="form-group">
                 <button name="btn" class="btn btn-primary">Search</button>
             </div>
+            
         </form>
       </div>
     </div>
